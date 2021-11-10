@@ -5,6 +5,7 @@ from src import calculadora as calc
 # así evitamos tener que escribir el nombre completo.
 
 
+
 def test_suma():
     suma = calc.suma(3, 2)
     assert suma == 5
@@ -32,4 +33,4 @@ def test_factorial():
 def test_potenciacion():
     pote = calc.potenciacion(3, 3)
     assert pote == 27
-    
+
