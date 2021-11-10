@@ -32,3 +32,4 @@ def test_factorial():
 def test_potenciacion():
     pote = calc.potenciacion(3, 3)
     assert pote == 27
+    
