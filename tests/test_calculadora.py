@@ -8,32 +8,32 @@ import pytest
 class TestCalculadora:
 
     def test_suma(self):
-        suma = calc.suma(3, 2)
-        assert suma == 5
+        self.suma = calc.suma(3, 2)
+        assert self.suma == 5
 
     def test_resta(self):
-        resta = calc.resta(5, 2)
-        assert resta == 3
+        self.resta = calc.resta(5, 2)
+        assert self.resta == 3
 
     def test_multiplicacion(self):
-        multipli = calc.multiplicacion(4, 5)
-        assert multipli == 20
+        self.multipli = calc.multiplicacion(4, 5)
+        assert self.multipli == 20
 
     def test_division(self):
-        divi = calc.division(20, 2)
-        assert divi == 10
+        self.divi = calc.division(20, 2)
+        assert self.divi == 10
 
     def test_cuadrado(self):
-        cuadrado = calc.cuadrado(4)
-        assert cuadrado == 16
+        self.cuadrado = calc.cuadrado(4)
+        assert self.cuadrado == 16
 
     def test_factorial(self):
-        fact = calc.factorial_1(5)
-        assert fact == 120
+        self.fact = calc.factorial_1(5)
+        assert self.fact == 120
 
     def test_potenciacion(self):
-        pote = calc.potenciacion(3, 3)
-        assert pote == 27
+        self.pote = calc.potenciacion(3, 3)
+        assert self.pote == 27
 
 
 if __name__ == '__main__':
