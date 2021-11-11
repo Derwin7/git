@@ -16,7 +16,7 @@ def division(num1, num2):
 def cuadrado(num1):
     return num1**2
 
-def factorial(num1):
+def factorial_1(num1):
     for i in range(1, num1):
         num1 = num1*i
     return num1
