@@ -1,12 +1,12 @@
 from src import calculadora as calc
 import pytest
 
-
 # calc es un alias que le damos a calculadora en el momento de la importación
 # así evitamos tener que escribir el nombre completo.
 
 class TestCalculadora:
 
+    #@pytest.mark.prueba_suma
     def test_suma(self):
         self.suma = calc.suma(3, 2)
         assert self.suma == 5
