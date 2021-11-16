@@ -6,7 +6,6 @@ import pytest
 
 class TestCalculadora:
 
-    #@pytest.mark.prueba_suma
     def test_suma(self):
         self.suma = calc.suma(3, 2)
         assert self.suma == 5
