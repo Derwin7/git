@@ -4,8 +4,8 @@ from src.persona import persona
 
 class TestPersona:
 
-    def test_years_until_retirement(self):
-        assert year_until_retirement(persona) == 35
+    def test_years_until_retirement(self, persona):
+        assert years_until_retirement(persona) == 35
 
 
     def test_name_and_age(self):
